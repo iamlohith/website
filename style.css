@@ -1,61 +1,71 @@
 body
 {
-  background-color: #8B9DC3;
+  background-color:white;
   margin: 0;
   
 }
-.container
+h1
 {
-  width:80%;
-  margin: auto;
-  overflow: hidden;
-  /*text-align:center;*/
-}
-#main-header
-{
-  background-color:#F0EDE5;
-  color: #6F9FD8;
+  background-color: black;
+  color: white;
+  margin: 0;
+  height: 50px;
   text-align: center;
-  text-decoration: none;
+  padding: 10px;
+ 
 }
-#main-header  a
+h1 a
 {
   text-decoration: none;
+  color: white;
 }
-
-#navbar
+h3
 {
-  background-color: #333;
-  overflow: hidden;
+  font-size: 30px;
+}
+nav 
+{
   text-align: center;
-  opacity: 60%;
-
 }
-#navbar ul
-{
-  padding: 0;
-  list-style: none;
-
-}
-#navbar li
-{
-  display: inline;
-}
-
-#navbar a
+nav a
 {
   text-decoration: none;
   font-size: 22px;
-  padding:10px 10px;
+  padding:10px ;
   color: white;
-  float: center;
+  border-radius: 20px;
+  background-color: black ;
+  opacity: 50%;
+  word-spacing: 10px;
 
 }
-#navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+nav a:hover {
+  background-color: #ddd;
+  color: black; 
 }
 
+footer{
+  background-color: black;
+  margin: 0;
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+}
+#latest 
+{
+  
+  margin-left: 50px;
+}
+#latest a
+{
+  text-decoration: none;
+  font-size: 10px;
+ 
+  
+
+}
 
 .search-container {
   align-items: center;
@@ -82,82 +92,31 @@ body
 }
 
 
-.clr
+#web1
 {
-  clear: both;
-}
-
-#news table
-{ 
-  float: left;
-  padding:0 30px ;
-  width: 150px;
-
-}
-#news table td
-{ 
-  padding:15px 15px;
+  margin-left: 100px;
  
 }
-#news a
+#web1 h2{
+  font-size: 40px;
+}
+#web1 p{
+  font-family:     'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  width: 75%;
+  text-align: justify;
+  line-height: 35px;
+  word-spacing: 2px;
+  text-indent: 2em;
+}
+
+#sidebar a
 {
+  position: absolute;
+  top:90px;
+  left:  20px;
   text-decoration: none;
-}
-#main-footer 
-{
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-
-}
-#data
-{
- 
-  float:left; 
-  width:50%;
-  padding:  30px;
-  box-sizing: border-box;
-}
-#data p
-{
-  margin-left: 10%;
-  margin-right: 40%;
-  font-family: "Times New Roman", Times, serif;
+  border: 2px solid black;
   
 
 }
-#sidebar 
-{
-  float :right;
-  width: 40%;
-  padding: 30px;
-  box-sizing: border-box;
- border: 3px solid #c3c3c3;
-
-   
-}
-@media(max-width:900px){
-  #news{
-    width: 100%;
-    float:none;
-
-  }
-  #news li
-  {
-    width:100%;
-    float: none;
-  }
-  #data
-  {
-    width: 100%;
-    float:none;
- 
-  }
-  #sidebar
-  {
-    width: 100%;
-    float:none;
- 
-  }
-}
-
