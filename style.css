@@ -5,6 +5,7 @@ footer {
   padding: 3px;
   background-color: black;
   color: white;
+  width: 100%;
 }
 .article1
 {
@@ -31,5 +32,6 @@ footer {
 .latest
 {
   text-align: center;
+  
   
 }
