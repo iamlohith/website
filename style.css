@@ -12,10 +12,25 @@ body, html {
   font-family: sans-serif;
  
 }
-
+.offcanvas-body ul li{
+  list-style: none;
+}
 .col p
 {
   font-size: 20px;
+}
+.login
+{
+  text-align: center;
+  background-color: burlywood;
+  
+  
+}
+.login input
+{
+  width: min-content;
+  margin: auto;
+  
 }
 
 p {
@@ -23,6 +38,7 @@ p {
   margin: 30px 0;
   word-wrap: break-word;
   color: #333332;
+  
 }
 footer {
   text-align: center;
