@@ -35,8 +35,6 @@ footer {
   text-align: center;
   
   
-<<<<<<< HEAD
-=======
 }
 img
 {
@@ -50,3 +48,37 @@ img
 }
 
 
+<<<<<<< HEAD
+=======
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  
+}
+
+@media screen and (max-width:700px) {
+  .latest 
+  {
+    width: 20%;
+
+  }
+
+  .column {
+    width: 50%;
+  }
+  
+  footer
+  {
+    max-width: auto;
+ 
+  }
+
+}
+>>>>>>> origin/master
