@@ -1,4 +1,29 @@
+body, html {
+  
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: normal;
+  font-family: sans-serif;
+ 
+}
 
+.col p
+{
+  font-size: 20px;
+}
+
+p {
+  line-height: 38px;
+  margin: 30px 0;
+  word-wrap: break-word;
+  color: #333332;
+}
 footer {
   text-align: center;
   padding: 3px;
@@ -8,28 +33,38 @@ footer {
 }
 .article1
 {
-  width: 75%;
-  text-align:left;
+  width: auto;  
+  margin: 0 auto;
   line-height: 35px;
   word-spacing: 2px;
-  text-indent: 2em;
-  margin-left: 15%;
-  
-  
+  margin-left: 5%;
+  margin-right: 5%;
+ 
   
 }
 .article1 p{
-  grid-column: 1/span 2;
-    grid-row: 4;
-    font-size: 1.6em;
-    font-weight: 400;
-    color: #2c2c2c;
-    font-family: Inter,sans-serif;
-    letter-spacing: -.3px;
-    line-height: 1.4;
-    margin-bottom: 1.75rem;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+    display: block;
+    overflow: hidden;
+    margin: 30px 0;
+    word-wrap: break-word;
+  
+    padding-left: 5px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+     
+  
+  
+
     
 }
+
+
 .latest
 {
   text-align: center;
@@ -47,18 +82,23 @@ img
   box-sizing:border-box;
 }
 
+.posts .article1 {
+  clear: both;
+  padding: 65px 0 25px;
+  border-bottom: 1px solid #d7d7d7;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+}
 
-<<<<<<< HEAD
-=======
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
   .left, .main, .right {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 
-  footer {
-    width: 100%;
-  }
+ 
 
   
 }
@@ -70,15 +110,24 @@ img
 
   }
 
-  .column {
-    width: 50%;
-  }
-  
-  footer
+  .article1 p
   {
-    max-width: auto;
- 
+    line-height: 38px;
+    margin: 30px 0;
+    word-wrap: break-word;
+    color: #333332;
   }
 
 }
->>>>>>> origin/master
+
+@media screen and (max-width: 595px){}
+.posts .article {
+  padding-top: 2px;
+    
+}
+
+@media screen and (max-width: 906px){}
+.posts .article1 {
+    padding-top: 2px;
+  
+}
